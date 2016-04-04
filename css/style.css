@@ -15,6 +15,27 @@ body {
 	font-family: 'Open Sans Condensed', 'Arial', sans-serif;
 }
 
+.textocentral {
+	position: relative;
+	width: 37.4em;
+	margin: 10em auto;
+}
+
+.inform {
+	position: relative;
+	width: 8em;
+	margin: 1em auto;
+}
+
+.git {
+	width: 2em;
+}
+
 h1 {
 	font-size: 5em;
+}
+
+hr {
+	position: relative;
+	width: 100%;
 }
