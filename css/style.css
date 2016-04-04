@@ -13,17 +13,19 @@
 
 body {
 	font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+	background-color: #eee;
 }
 
 .textocentral {
 	position: relative;
 	width: 37.4em;
 	margin: 10em auto;
+	color: #000
 }
 
 .inform {
 	position: relative;
-	width: 8em;
+	width: 2em;
 	margin: 1em auto;
 }
 
