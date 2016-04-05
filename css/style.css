@@ -41,3 +41,22 @@ hr {
 	position: relative;
 	width: 100%;
 }
+
+footer {
+	z-index: 5;
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+	width: 100%;
+	text-align: right;
+}
+
+footer a:link, a:visited {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+
+footer a:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
