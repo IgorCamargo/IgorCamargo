@@ -33,8 +33,24 @@ body {
 	width: 2em;
 }
 
+.hr-left {
+	position: absolute;
+	left: 0;
+	width: 60%;
+}
+
+.hr-right {
+	position: absolute;
+	right: 0;
+	width: 60%;
+}
+
 h1 {
 	font-size: 5em;
+}
+
+h2 {
+	font-size: 1.5em;
 }
 
 hr {
@@ -43,12 +59,12 @@ hr {
 }
 
 footer {
-	z-index: 5;
 	position: fixed;
-	bottom: 1em;
-	right: 1em;
+	z-index: 5;
+	bottom: 0.5em;
+	height: 8em;
 	width: 100%;
-	text-align: right;
+	text-align: center;
 }
 
 footer a:link, a:visited {
@@ -60,3 +76,5 @@ footer a:hover {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
+
+footer img { margin-top: 0.8em; }
