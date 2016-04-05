@@ -88,6 +88,13 @@ footer img { margin-top: 0.8em; }
 	h1 {
 		font-size: 3em;
 	}
+
+	footer img { width: 32px; right: 37.5px; }
+
+	footer {
+		bottom: 0.5em;
+		height: 5.5em;
+	}
 }
 
 @media screen and (max-width: 480px) {
