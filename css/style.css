@@ -82,7 +82,7 @@ footer img { margin-top: 0.8em; }
 @media screen and (max-width: 720px) {
 	.textocentral {
 		width: 22.41em;
-		margin: 2.5em auto;
+		margin: 1em auto;
 	}
 	
 	h1 {
