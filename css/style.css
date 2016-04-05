@@ -78,3 +78,26 @@ footer a:hover {
 }
 
 footer img { margin-top: 0.8em; }
+
+@media screen and (max-width: 720px) {
+	.textocentral {
+		width: 22.41em;
+		margin: 6em auto;
+	}
+	
+	h1 {
+		font-size: 3em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.textocentral {
+		width: 15em;
+		margin: 2em auto;
+	}
+	
+	h1 {
+		font-size: 3.5em;
+		text-align: center;
+	}
+}
